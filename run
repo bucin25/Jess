@@ -148,8 +148,8 @@ def clear():
 # LOGO
 
 def banner():
-	print
-	print
+	print ('')
+	print ('')
 	print
 	print ('                 \33[3;1m\033[1;97mW e l c o m e  T o\33[0;1m')
 	print
