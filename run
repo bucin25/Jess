@@ -240,25 +240,25 @@ def menu():
 	print(h+"["+p+"09"+h+"]"+p+" Setting Tema")
 	print(h+"["+p+"00"+h+"]"+p+" Logout")
 	sayangku = input("\n"+balmond+l+" Pilih : ")
-	if sayangku=="01" or sayangku=="01":
+	if sayangku=="1" or sayangku=="01":
 		publik()
-	elif sayangku=="02" or sayangku=="02":
+	elif sayangku=="2" or sayangku=="02":
 		follow()
-	elif sayangku=="03" or sayangku=="03":
+	elif sayangku=="3" or sayangku=="03":
 		massal()
-	elif sayangku=="04" or sayangku=="04":
+	elif sayangku=="4" or sayangku=="04":
 		dump_old()
-	elif sayangku=="05" or sayangku=="05":
+	elif sayangku=="5" or sayangku=="05":
 		dump_old2()
-	elif sayangku=="06" or sayangku=="06":
+	elif sayangku=="6" or sayangku=="06":
 		user_agent()
-	elif sayangku=="07" or sayangku=="07":
+	elif sayangku=="7" or sayangku=="07":
 		cek_opsi()
-	elif sayangku=="08" or sayangku=="08":
+	elif sayangku=="8" or sayangku=="08":
 		result()
-	elif sayangku=="09" or sayangku=="09":
+	elif sayangku=="9" or sayangku=="09":
 		tema()
-	elif sayangku=="00" or sayangku=="00":
+	elif sayangku=="0" or sayangku=="00":
 		os.system("rm -rf token.txt")
 		jalan(balmond+l+" Thanks Udah Pake Sc Gua Bro")
 		time.sleep(0.5)
