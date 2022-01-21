@@ -148,6 +148,9 @@ def clear():
 # LOGO
 
 def banner():
+	print
+	print
+	print
 	print ('                 \33[3;1m\033[1;97mW e l c o m e  T o\33[0;1m')
 	print
 	print ('        \033[1;92m[\33[37;1mR\033[1;92m] \033[1;92m[\033[1;97mA\033[1;92m] \033[1;92m[\033[1;97mT\033[1;92m] \033[1;92m[\033[1;97mU\033[1;92m]  \033[1;92m[\033[1;97mE\033[1;92m] \033[1;92m[\033[1;97mR\033[1;92m] \033[1;92m[\33[37;1mR\033[1;92m] \033[1;92m[\033[1;97mO\033[1;92m] \033[1;92m[\033[1;97mR\033[1;92m]\033[1;92m')
@@ -225,10 +228,8 @@ def menu():
 		jalan(balmond+m+" Tidak Ada Internet")
 		time.sleep(0.5)
 		exit()
-	print("\n"+balmond+l+" Selamat datang : "+h+pillow["name"])
-	print(balmond+u+" =>"+h+" Hasil_Op/OK_%s.txt"%(hck))
-	print(balmond+u+" =>"+k+" Hasil_Cp/CP_%s.txt"%(hck))
-	print(h+line)
+	print
+	print
 	print(h+"\n{"+k+"1"+h+"}"+l+" Crack Dari Pertemanan Atau Publik")
 	print(h+"{"+k+"2"+h+"}"+l+" Crack Dari Followers Publik")
 	print(h+"{"+k+"3"+h+"}"+l+" Crack Pertemanan Publik "+k+"{"+h+"Massal"+k+"}")
