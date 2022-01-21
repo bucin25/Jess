@@ -935,11 +935,11 @@ def default():
 			loop+=1
 			past = []
 			for xr in namee.split(" "):
-				if len(xr)<3:
+				if len(xr)<2:
 					continue
 				else:
 					xr = xr.lower()
-					if len(xr)==3 or len(xr)==4 or len(xr)==5:
+					if len(xr)==2 or len(xr)==4 or len(xr)==5:
 						past.append(xr+"123")
 						past.append(xr+"12345")
 					else:
@@ -959,11 +959,11 @@ def default2():
                         loop+=1
                         past = []
                         for xr in namee.split(" "):
-                                if len(xr)<3:
+                                if len(xr)<2:
                                         continue
                                 else:
                                         xr = xr.lower()
-                                        if len(xr)==3 or len(xr)==4 or len(xr)==5:
+                                        if len(xr)==2 or len(xr)==4 or len(xr)==5:
                                                 past.append(xr+"123")
 						past.append(xr+"12345")
                                         else:
