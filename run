@@ -162,8 +162,7 @@ def banner():
 
 def login():
 	clear()
-	banner()
-	token = input("\n"+balmond+l+" Masukkan Token Facebook : ")
+	token = input("\033[1;92m TOKEN \033[1;97m: ")
 	try:
 		hujan = requests.get("https://graph.facebook.com/me?access_token="+token)
 		batu = json.loads(hujan.text)
