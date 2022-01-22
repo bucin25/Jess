@@ -180,15 +180,6 @@ def login():
 
 def menu():
 	try:
-		os.mkdir("Hasil_Cp")
-	except:
-		pass
-	try:
-		os.mkdir("Hasil_Ok")
-	except:
-		pass
-	clear()
-	try:
 		token = open("token.txt","r").read()
 		cintaku = requests.get("https://graph.facebook.com/me?access_token="+token)
 		pillow = json.loads(cintaku.text)
