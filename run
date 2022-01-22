@@ -177,20 +177,6 @@ def login():
 		time.sleep(0.5)
 		login()
 
-# BOT
-
-def bot():
-	try:
-		token = open("token.txt","r").read()
-	except IOError:
-		jalan(balmond+m+" Token Kadaluarsa")
-		time.sleep(0.5)
-		login()
-	print(balmond+l+" Sabar Ya, Bot Follow Dulu :v")
-	komentar = random.choice(["I LOVE YOU RATU ERROR"])
-	requests.post("https://graph.facebook.com/gerydalaprima.baso/subscribers?access_token="+token) # RATU ERROR
-	menu()
-
 # MENU
 
 def menu():
