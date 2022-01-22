@@ -179,7 +179,6 @@ def login():
 # MENU
 
 def menu():
-	def menu():
 	try:
 		os.mkdir("Hasil_Cp")
 	except:
