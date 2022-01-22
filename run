@@ -188,6 +188,7 @@ def menu():
 	except:
 		pass
 	clear()
+	login()
 	banner()
 	print ('')
 	print(h+"\n["+p+"01"+h+"]"+p+" Crack Dari Pertemanan Atau Publik")
