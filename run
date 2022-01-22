@@ -179,6 +179,7 @@ def login():
 # MENU
 
 def menu():
+	def menu():
 	try:
 		os.mkdir("Hasil_Cp")
 	except:
@@ -188,6 +189,24 @@ def menu():
 	except:
 		pass
 	clear()
+	try:
+		token = open("token.txt","r").read()
+		cintaku = requests.get("https://graph.facebook.com/me?access_token="+token)
+		pillow = json.loads(cintaku.text)
+		hujan = pillow["name"]
+	except KeyError:
+		jalan(balmond+m+" Token Kadaluarsa")
+		time.sleep(0.5)
+		login()
+	except IOError:
+		jalan(balmond+m+" Token Kadaluarsa")
+		time.sleep(0.5)
+		login()
+	except requests.exceptions.ConnectionError:
+		jalan(balmond+m+" Tidak Ada Internet")
+		time.sleep(0.5)
+		exit()
+	banner()
 	print ('')
 	print(h+"\n["+p+"01"+h+"]"+p+" Crack Dari Pertemanan Atau Publik")
 	print(h+"["+p+"02"+h+"]"+p+" Crack Dari Followers Publik")
