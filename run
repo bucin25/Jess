@@ -188,11 +188,7 @@ def menu():
 	except:
 		pass
 	clear()
-	
-	except requests.exceptions.ConnectionError:
-		jalan(balmond+m+" Tidak Ada Internet")
-		time.sleep(0.5)
-		exit()
+	banner()
 	print ('')
 	print(h+"\n["+p+"01"+h+"]"+p+" Crack Dari Pertemanan Atau Publik")
 	print(h+"["+p+"02"+h+"]"+p+" Crack Dari Followers Publik")
